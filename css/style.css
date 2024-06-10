@@ -1,0 +1,151 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+
+#header-bg{
+    background-image: url("../images/coloured\ purse.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 4rem 7rem;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+    text-decoration: none;
+    color: rgb(134, 13, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ul-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+.nav-item{
+text-decoration: none;
+color: white;
+}
+
+.btn{
+    background-color: transparent;
+    padding: 2px 26px;
+    border-radius: 4rem;
+    border: 2px solid white;
+}
+
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-text{
+    color: white;
+    font-size: 20px;
+    margin-top: 10rem;
+}
+.about-section{
+    margin: 10rem 10rem;
+    display: flex;
+
+}
+
+.images{
+    display: flex;
+    width: 50%;
+    gap: 2rem;
+}
+
+.about-text{
+    width: 50%;
+    font-size: 20px;
+}
+
+.about-text h5{
+    color: orangered;
+    font-size: 20px;
+}
+
+.about-text h2{
+    font-size: 30px;
+}
+.images img{
+    width: 50%;
+}
+
+.about-btn{
+    border: none;
+    background-color: orangered;
+    padding: 12px 25px;
+    border-radius: 2rem;
+    border: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.about-btn:hover{
+    background-color: rgb(47, 189, 12);
+}
+
+.serve-section{
+    margin: 6rem 10rem;
+}
+
+.serve-images{
+    display: flex;
+    gap: 30px;
+}
+
+.image{
+    width: 50%;
+    font-size: 26px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.serve-text{
+    padding-bottom: 2rem;
+    width: 50%;
+    font-size: 20px;
+    padding-top: 5rem;
+}
+
+.serve-text h5{
+color: orangered;
+}
+
+.serve-text h2{
+    font-size: 30px;
+}
+
+.serve-images h2{
+    font-size: 20px;
+}
+.serve-images p{
+    font-size: 15px;
+}
+
+.image a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.serve-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
