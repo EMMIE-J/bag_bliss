@@ -149,3 +149,8 @@ color: orangered;
     text-align: center;
     margin-top: 2rem;
 }
+
+#bags-edition h2{
+   font-size: small; 
+   font-family: 'Courier New', Courier, monospace;
+}
